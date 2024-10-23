@@ -9,7 +9,7 @@ const ProductPage = () => {
   console.log(productSlug);
 
   //Query string format
-  // http://localhost:5173/store/product1?sort=desc
+  // http://localhost:5173/store/product1?sort=desc&color=red
 
   const [product, setProduct] = useState(null);
   useEffect(() => {
